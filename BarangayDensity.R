@@ -15,4 +15,4 @@ reg$average = reg$Area/freq$freq
 pop = merge(x=pop,y=reg,by=c("Region"), all= TRUE)
 #Calculate population density
 pop$density = pop$Population/pop$average
-top_n(pop,10,density)
+top_n(pop,5,density)
