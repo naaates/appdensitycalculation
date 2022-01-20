@@ -34,3 +34,7 @@ regCity
 top_n(regCity,5,density)
 
 write.csv(top_n(regCity,5,density),'citypopdensity.csv')
+
+install.packages("gitcreds")
+library(gitcreds)
+gitcreds_get()
